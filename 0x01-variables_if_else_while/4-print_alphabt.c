@@ -1,9 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - print lowercse alphabets excluding q and e
+ * main - Prints some letters of alphabet
  *
- * Result - Always (success)
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != 'q' && c != 'e')
+		if (c != 'e' && c != 'q')
 		{
 			putchar(c);
 		}
@@ -19,5 +19,5 @@ int main(void)
 
 	putchar('\n');
 
-	return(0);
+	return (0);
 }

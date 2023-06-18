@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *   * main - Prints combination of numbers
- *     *
- *       * Return: Always (Success)
- *         */
+ * main - Prints combination of numbers
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
 	int c, i;
@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar(c);
 				putchar(c);
-			}	
+			}
 			if (c != '8' || (c == '8' && i != '9'))
 				{
 					putchar(',');

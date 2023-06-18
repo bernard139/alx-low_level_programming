@@ -1,20 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - print all single base 10 digits
+ * main - Prints the numbers since 0 to 9
  *
- * Result - Success
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int a;
+	char n;
 
-	for (a = 0; a <= 9; a++)
+	for (n = '0'; n <= '9'; n++)
 	{
-		putchar(a);
+		putchar(n);
 	}
 
 	putchar('\n');
 
-	return(0);
+	return (0);
 }

@@ -4,7 +4,7 @@
 /**
  * main - print char
  *
- * Result - Always (success)
+ * Return - Always (success)
  */
 int main(void)
 {

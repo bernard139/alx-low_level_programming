@@ -7,7 +7,7 @@
  * Return: empty
  */
 void print_triangle(int size)
-{	
+{
 	int x, y, z;
 
 	if (size <= 0)
@@ -30,3 +30,4 @@ void print_triangle(int size)
 			}
 		}
 	}
+}

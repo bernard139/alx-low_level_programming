@@ -26,12 +26,12 @@ int main(int argc, char *argv[])
 
 	/* check for correct number of arguments */
 	if (argc != 2)
-	error(1);
+		error(1);
 
 	/* get number of bytes to print */
 	n = atoi(argv[1]);
 	if (n < 0)
-	error(2);
+		error(2);
 
 	/* print opcodes */
 	for (i = 0; i < n; i++)

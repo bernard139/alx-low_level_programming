@@ -1,10 +1,13 @@
 #include <stdio.h>
 
+void first(void) __attribute__ ((constructor));
+
 /**
- * premain - prints a string before the main function is executed
+ * first - ...
+ *
+ * Return: Nothing.
  */
-__attribute__ ((constructor))
-	void premain(void)
+void first(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
